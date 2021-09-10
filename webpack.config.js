@@ -36,7 +36,12 @@ module.exports = (env) => {
           use: [
             'style-loader',
             'css-loader',
-            'sass-loader',
+            {
+              loader: 'sass-loader',
+              options: {
+                additionalData: "@import '@/assets/main.scss';",
+              },
+            },
           ],
         },
         {

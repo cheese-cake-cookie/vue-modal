@@ -1,0 +1,101 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  color: #111;
+  font-size: 13px;
+  font-family: 'Spoqa Han Sans', sans-serif !important;
+  -webkit-text-size-adjust: none;
+  -ms-text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 20px;
+  box-sizing: border-box;
+}
+
+a,
+button {
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+}
+a {
+  color: #1fa1eb;
+  text-decoration: none;
+  outline: none;
+}
+ul,
+li {
+  list-style: none;
+}
+input {
+  border: 0px;
+}
+input:focus,
+select:focus {
+  outline: none;
+}
+button {
+  border: 0px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 15px;
+  line-height: 20px;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section {
+  display: block;
+}
+b,
+strong {
+  font-weight: bold;
+}
+ul,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+ul,
+ol,
+dl {
+  list-style: none;
+}
+img {
+  border: 0;
+  vertical-align: middle;
+}
+p {
+  margin: 0;
+}
+form {
+  margin: 0;
+  padding: 0;
+}
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+::-webkit-input-placeholder,
+::-moz-placeholder,
+:-ms-input-placeholder,
+:-moz-placeholder {
+  background-color: #515151;
+}
