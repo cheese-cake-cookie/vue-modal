@@ -6,11 +6,30 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Vue modal</title>
+  <link rel="stylesheet" href="../public/css/spoqahansans.css">
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
   <script src="../dist/index.js"></script>
 </head>
 
 <body>
-
+  <div id="app">
+    <button @click="openModal">open modal</button>
+    <ui-modal ref="modal">
+      <p>modal</p>
+    </ui-modal>
+  </div>
+  <script type="text/javascript">
+    (() => {
+      new Vue({
+        el: "#app",
+        methods: {
+          openModal() {
+            this.$refs.modal.$emit('show');
+          }
+        }
+      })
+    })();
+  </script>
 </body>
 
 </html>
